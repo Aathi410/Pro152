@@ -9,11 +9,11 @@
 
   <body>
     <a-scene>
-        <a-entity camera wasd-controls position="0 50 250"></a-entity>
+        <a-entity  id="camera" camera position="0 50 250"></a-entity>
 
-        <a-entity id="base" position = "" base></a-entity>
+        <a-entity id="base" base></a-entity>
 
-        <a-entity id="car" car-com position="10 5 60" rotation="0 -50 0"></a-entity>
+        <a-entity id="car" car-component></a-entity>
     </a-scene>
   </body>
 </html>
